@@ -1,7 +1,7 @@
 import { createContext, useContext, useState } from "react";
 import reactDom from "react-dom";
 import YouTube from "react-youtube";
-import { Container, Button, Overlay, Inner, Close } from "./styles/player";
+import { Container, Button, Overlay, Inner } from "./styles/player";
 
 export const PlayerContext = createContext();
 

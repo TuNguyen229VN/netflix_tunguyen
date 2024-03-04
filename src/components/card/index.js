@@ -81,7 +81,7 @@ Card.Feature = function CardFeature({
 }) {
   const { showFeature, itemFeature, setShowFeature } =
     useContext(FeatureContext);
-  return showFeature && detailMovie.id == itemFeature.id ? (
+  return showFeature && detailMovie.id === itemFeature.id ? (
     <Feature
       {...restProps}
       src={`https://image.tmdb.org/t/p/original/${detailMovie.backdrop_path}`}
