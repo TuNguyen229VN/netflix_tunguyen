@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import { useContext } from "react/cjs/react.development";
+import { useContext, useEffect, useState } from "react";
 import { FirebaseContext } from "../context/firebase";
 
 export default function useContent(target) {
