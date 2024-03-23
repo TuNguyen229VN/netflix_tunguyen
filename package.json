@@ -7,22 +7,24 @@
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "axios": "^0.24.0",
+    "axios": "^1.6.7",
     "eslint-plugin-react": "^7.27.1",
     "firebase": "^9.5.0",
     "fuse.js": "^6.4.6",
     "gh-pages": "^4.0.0",
-    "movie-trailer": "^2.1.0",
+    "movie-trailer": "^3.2.2",
+    "node": "^21.6.2",
     "normalize.css": "^8.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-lazy-load-image-component": "^1.5.1",
     "react-router-dom": "^6.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "react-slick": "^0.28.1",
     "react-youtube": "^7.13.1",
     "styled-components": "^5.3.3",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "webpack": "^5.90.3"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
@@ -33,7 +35,7 @@
     "deploy": "gh-pages -d build"
   },
   "engines": {
-    "node": "16.x"
+    "node": "20.x"
   },
   "eslintConfig": {
     "extends": [
