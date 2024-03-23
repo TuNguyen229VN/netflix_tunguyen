@@ -1,6 +1,5 @@
 import axios from "axios";
-import { useState } from "react";
-import { useEffect } from "react/cjs/react.development";
+import { useEffect, useState } from "react";
 import { Card, Player } from "../components";
 import Slider from "react-slick";
 import movieTrailer from "movie-trailer";
