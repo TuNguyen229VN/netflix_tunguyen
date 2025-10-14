@@ -29,5 +29,5 @@
 - **Authentication:** Allows users to sign up, sign in, and sign out securely.
 - **Show List Movie:** Show list of movies by imdb of all genres
 
-![netflix img](/netflix_log.png)
 ![netflix img](/netflix_md.png)
+![netflix img](/netflix_log.png)
