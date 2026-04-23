@@ -13,6 +13,7 @@
 - **axios:** For making HTTP requests to fetch data from APIs.
 - **react-slick:** Enables the creation of responsive and touch-friendly carousels.
 - **react-youtube:** Show Video Youtube
+- **styled-components:** Used to style components in the Netflix clone project, enabling scoped and reusable CSS for building a clean and responsive UI similar to Netflix.
 
 ## API Reference:
 

@@ -49,6 +49,7 @@ export default function ListContainer({ title, fetchUrl, isLargeRow }) {
       {
         breakpoint: 600,
         settings: {
+          infinite: true,
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2,
@@ -57,8 +58,9 @@ export default function ListContainer({ title, fetchUrl, isLargeRow }) {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
         },
       },
     ],
@@ -94,9 +96,8 @@ export default function ListContainer({ title, fetchUrl, isLargeRow }) {
             <Card.Item key={item.id} item={item}>
               <div className="parent" onClick={() => handleClick(item)}>
                 <img
-                  src={`${baseURL}${
-                    isLargeRow ? item.poster_path : item.backdrop_path
-                  }`}
+                  src={`${baseURL}${isLargeRow ? item.poster_path : item.backdrop_path
+                    }`}
                   alt={item.name || item.title || item.original_name}
                   className={`row_poster ${isLargeRow && "row_posterLarge"}`}
                 />
