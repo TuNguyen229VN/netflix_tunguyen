@@ -71,7 +71,7 @@ export function BrowseContainer({ slides }) {
       return response;
     };
     fetchData();
-  });
+  },[]);
   return profile.displayName ? (
     <>
       {loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
